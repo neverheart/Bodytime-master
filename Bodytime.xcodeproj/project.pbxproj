@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840F215419BEBA3C00E06FAC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F215219BEBA3C00E06FAC /* TestViewController.m */; };
 		8421413619B74C7600B9BBA1 /* TodayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413519B74C7600B9BBA1 /* TodayController.m */; };
 		8421413919B74CF700B9BBA1 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413819B74CF700B9BBA1 /* CalendarController.m */; };
 		8421413F19B74D2C00B9BBA1 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413E19B74D2C00B9BBA1 /* SettingsController.m */; };
@@ -78,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840F215219BEBA3C00E06FAC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		840F215319BEBA3C00E06FAC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		8421413419B74C7600B9BBA1 /* TodayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayController.h; sourceTree = "<group>"; };
 		8421413519B74C7600B9BBA1 /* TodayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayController.m; sourceTree = "<group>"; };
 		8421413719B74CF700B9BBA1 /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				8421413E19B74D2C00B9BBA1 /* SettingsController.m */,
 				8421414019B74D6000B9BBA1 /* PurchaseController.h */,
 				8421414119B74D6000B9BBA1 /* PurchaseController.m */,
+				840F215219BEBA3C00E06FAC /* TestViewController.m */,
+				840F215319BEBA3C00E06FAC /* TestViewController.h */,
 			);
 			name = MenuControllers;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				8421415519B7524500B9BBA1 /* MNCalendarHeaderView.m in Sources */,
 				843678B819B6B33E00BA9B02 /* UIViewController+AMSlideMenu.m in Sources */,
 				84EC5FF919BEB5E200069E41 /* JBBaseViewController.m in Sources */,
+				840F215419BEBA3C00E06FAC /* TestViewController.m in Sources */,
 				8421415919B7524500B9BBA1 /* MNCalendarViewLayout.m in Sources */,
 				84EC601B19BEB5F300069E41 /* JBChartView.m in Sources */,
 				84EC600119BEB5E200069E41 /* JBLineChartFooterView.m in Sources */,
