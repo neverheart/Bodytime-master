@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8421413619B74C7600B9BBA1 /* TodayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413519B74C7600B9BBA1 /* TodayController.m */; };
 		8421413919B74CF700B9BBA1 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413819B74CF700B9BBA1 /* CalendarController.m */; };
-		8421413C19B74D1A00B9BBA1 /* StatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413B19B74D1A00B9BBA1 /* StatisticsController.m */; };
 		8421413F19B74D2C00B9BBA1 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421413E19B74D2C00B9BBA1 /* SettingsController.m */; };
 		8421414219B74D6000B9BBA1 /* PurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421414119B74D6000B9BBA1 /* PurchaseController.m */; };
 		8421415519B7524500B9BBA1 /* MNCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421414519B7524500B9BBA1 /* MNCalendarHeaderView.m */; };
@@ -83,8 +82,6 @@
 		8421413519B74C7600B9BBA1 /* TodayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayController.m; sourceTree = "<group>"; };
 		8421413719B74CF700B9BBA1 /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
 		8421413819B74CF700B9BBA1 /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
-		8421413A19B74D1A00B9BBA1 /* StatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsController.h; sourceTree = "<group>"; };
-		8421413B19B74D1A00B9BBA1 /* StatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsController.m; sourceTree = "<group>"; };
 		8421413D19B74D2C00B9BBA1 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		8421413E19B74D2C00B9BBA1 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		8421414019B74D6000B9BBA1 /* PurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseController.h; sourceTree = "<group>"; };
@@ -216,8 +213,6 @@
 				8421413519B74C7600B9BBA1 /* TodayController.m */,
 				8421413719B74CF700B9BBA1 /* CalendarController.h */,
 				8421413819B74CF700B9BBA1 /* CalendarController.m */,
-				8421413A19B74D1A00B9BBA1 /* StatisticsController.h */,
-				8421413B19B74D1A00B9BBA1 /* StatisticsController.m */,
 				8421413D19B74D2C00B9BBA1 /* SettingsController.h */,
 				8421413E19B74D2C00B9BBA1 /* SettingsController.m */,
 				8421414019B74D6000B9BBA1 /* PurchaseController.h */,
@@ -600,7 +595,6 @@
 				84EC600819BEB5E200069E41 /* JBChartTooltipView.m in Sources */,
 				8421415719B7524500B9BBA1 /* MNCalendarViewCell.m in Sources */,
 				84EC600719BEB5E200069E41 /* JBChartTooltipTipView.m in Sources */,
-				8421413C19B74D1A00B9BBA1 /* StatisticsController.m in Sources */,
 				84EC601A19BEB5F300069E41 /* JBBarChartView.m in Sources */,
 				8421415A19B7524500B9BBA1 /* MNCalendarViewWeekdayCell.m in Sources */,
 				84EC600019BEB5E200069E41 /* JBBarChartFooterView.m in Sources */,
