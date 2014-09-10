@@ -43,6 +43,8 @@
 		843678B719B6B33E00BA9B02 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843678AF19B6B33E00BA9B02 /* AMSlideMenuRightTableViewController.m */; };
 		843678B819B6B33E00BA9B02 /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 843678B119B6B33E00BA9B02 /* UIViewController+AMSlideMenu.m */; };
 		843678BB19B6B3C400BA9B02 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843678BA19B6B3C400BA9B02 /* MainVC.m */; };
+		8492161119BFF3080015C5D3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492160D19BFF3080015C5D3 /* TestViewController.m */; };
+		8492161219BFF3080015C5D3 /* SecondTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492161019BFF3080015C5D3 /* SecondTestViewController.m */; };
 		84EC5FF519BEB5E200069E41 /* JBChartTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC5FB819BEB5E200069E41 /* JBChartTableCell.m */; };
 		84EC5FF619BEB5E200069E41 /* JBBaseChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC5FC219BEB5E200069E41 /* JBBaseChartViewController.m */; };
 		84EC5FF919BEB5E200069E41 /* JBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC5FC819BEB5E200069E41 /* JBBaseViewController.m */; };
@@ -142,6 +144,10 @@
 		843678B119B6B33E00BA9B02 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
 		843678B919B6B3C400BA9B02 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
 		843678BA19B6B3C400BA9B02 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		8492160D19BFF3080015C5D3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8492160E19BFF3080015C5D3 /* SecondTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTestViewController.h; sourceTree = "<group>"; };
+		8492160F19BFF3080015C5D3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8492161019BFF3080015C5D3 /* SecondTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTestViewController.m; sourceTree = "<group>"; };
 		84EC5FB719BEB5E200069E41 /* JBChartTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTableCell.h; sourceTree = "<group>"; };
 		84EC5FB819BEB5E200069E41 /* JBChartTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTableCell.m; sourceTree = "<group>"; };
 		84EC5FBA19BEB5E200069E41 /* JBColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBColorConstants.h; sourceTree = "<group>"; };
@@ -222,6 +228,10 @@
 				8421413E19B74D2C00B9BBA1 /* SettingsController.m */,
 				8421414019B74D6000B9BBA1 /* PurchaseController.h */,
 				8421414119B74D6000B9BBA1 /* PurchaseController.m */,
+				8492160F19BFF3080015C5D3 /* TestViewController.h */,
+				8492160D19BFF3080015C5D3 /* TestViewController.m */,
+				8492160E19BFF3080015C5D3 /* SecondTestViewController.h */,
+				8492161019BFF3080015C5D3 /* SecondTestViewController.m */,
 			);
 			name = MenuControllers;
 			sourceTree = "<group>";
@@ -616,12 +626,14 @@
 				84EC5FFD19BEB5E200069E41 /* JBLineChartViewController.m in Sources */,
 				8436787E19B6AD1300BA9B02 /* AppDelegate.m in Sources */,
 				8421415819B7524500B9BBA1 /* MNCalendarViewDayCell.m in Sources */,
+				8492161219BFF3080015C5D3 /* SecondTestViewController.m in Sources */,
 				843678B319B6B33E00BA9B02 /* AMSlideMenuLeftMenuSegue.m in Sources */,
 				84EC5FF619BEB5E200069E41 /* JBBaseChartViewController.m in Sources */,
 				84EC600619BEB5E200069E41 /* JBChartInformationView.m in Sources */,
 				8421415519B7524500B9BBA1 /* MNCalendarHeaderView.m in Sources */,
 				843678B819B6B33E00BA9B02 /* UIViewController+AMSlideMenu.m in Sources */,
 				84EC5FF919BEB5E200069E41 /* JBBaseViewController.m in Sources */,
+				8492161119BFF3080015C5D3 /* TestViewController.m in Sources */,
 				8421415919B7524500B9BBA1 /* MNCalendarViewLayout.m in Sources */,
 				84EC601B19BEB5F300069E41 /* JBChartView.m in Sources */,
 				84EC600119BEB5E200069E41 /* JBLineChartFooterView.m in Sources */,

@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
     MNCalendarView *calendarView = [[MNCalendarView alloc] initWithFrame:self.view.bounds];
+    CGRect calendarViewFrame=CGRectMake(0, 70, calendarView.frame.size.width, calendarView.frame.size.height);
+    calendarView.frame=calendarViewFrame;
     calendarView.selectedDate = [NSDate date];
     calendarView.delegate = self;
     [self.view addSubview:calendarView];

@@ -19,6 +19,17 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    /*Тестируем пользователя при включении приложения
+    [self performSelector:@selector(performTestSegue)
+               withObject:self
+               afterDelay:2];*/
+}
+
+//Метод, вызывающий тестирование
+-(void)performTestSegue
+{
+    [self performSegueWithIdentifier:@"TestUser" sender:self];
 }
 
 
